@@ -110,21 +110,21 @@ AngelPlatform.prototype = {
         //     self.faccessories[housecode] = accessory;
         // }
         // // Built-in accessories and macro's
-        // {
-        //     var device;
-        //     device.name = "All Devices";
-        //     device.housecode = "A";
-        //     device.module = "Macro-allon";
-        //     var accessory = new AngelAccessory(self.log, device, null);
-        //     foundAccessories.push(accessory);
-        // } {
-        //     var device;
-        //     device.name = "All Lights";
-        //     device.housecode = "A";
-        //     device.module = "Macro-lightson";
-        //     var accessory = new AngelAccessory(self.log, device, null);
-        //     foundAccessories.push(accessory);
-        // }
+        {
+            var device;
+            device.name = "All Devices";
+            device.housecode = "A";
+            device.module = "Macro-allon";
+            var accessory = new AngelAccessory(self.log, device, null);
+            foundAccessories.push(accessory);
+        } {
+            var device;
+            device.name = "All Lights";
+            device.housecode = "A";
+            device.module = "Macro-lightson";
+            var accessory = new AngelAccessory(self.log, device, null);
+            foundAccessories.push(accessory);
+        }
         //
         // if (cputemp != undefined) {
         //     var device;
