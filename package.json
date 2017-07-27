@@ -1,6 +1,6 @@
 {
   "name": "homebridge-angel",
-  "version": "0.1.52",
+  "version": "2.1.52",
   "description": "X10/Angel plugin for HomeBridge",
   "main": "index.js",
   "scripts": {
